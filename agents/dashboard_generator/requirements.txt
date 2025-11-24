@@ -1,0 +1,6 @@
+# ============================================================================
+# FILE 1: agents/dashboard_generator/requirements.txt
+# ============================================================================
+# Python packages needed by this agent
+
+google-adk
