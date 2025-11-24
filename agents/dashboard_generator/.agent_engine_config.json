@@ -1,0 +1,13 @@
+# ============================================================================
+# FILE 3: agents/dashboard_generator/.agent_engine_config.json
+# ============================================================================
+# Deployment configuration for Vertex AI Agent Engine
+
+{
+    "min_instances": 0,
+    "max_instances": 1,
+    "resource_limits": {
+        "cpu": "2",
+        "memory": "2Gi"
+    }
+}
