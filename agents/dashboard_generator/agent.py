@@ -3,6 +3,14 @@
 # Dashboard Generator Agent - Creates beautiful interactive dashboards
 # ============================================================================
 
+import os
+import json
+from typing import Dict, List
+import vertexai
+from google.adk.agents import LlmAgent
+from google.adk.models.google_llm import Gemini
+from google.genai import types
+
 def compile_dashboard_data(
     session_json: str,
     attack_json: str,
