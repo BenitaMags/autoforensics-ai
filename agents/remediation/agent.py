@@ -3,6 +3,15 @@
 # Remediation Agent - Generates prioritized action plans
 # ============================================================================
 
+import os
+import json
+from typing import Dict, List
+import vertexai
+from google.adk.agents import LlmAgent
+from google.adk.models.google_llm import Gemini
+from google.adk.tools import google_search
+from google.genai import types
+
 def generate_remediation_plan(
     attack_json: str,
     cves_json: str,
