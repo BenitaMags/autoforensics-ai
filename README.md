@@ -146,7 +146,12 @@ autoforensics-ai/
 │   ├── pcap_parser/
 │   ├── log_parser/
 │   ├── ioc_gating/
-│   └── attack_detection/
+│   ├──attack_detection/
+│   ├── vulnerability_agent/
+│    ├── timeline_agent/
+│    ├── threat_intel/
+│   ├── remediation/
+│   └── dashboard/  
 ├── shared/
 ├── deploy/
 └── tests/
@@ -410,7 +415,6 @@ gcloud logging read "resource.type=cloud_run_revision" \
 
 - **Documentation**: https://google.github.io/adk-docs/
 - **Issues**: https://github.com/your-org/autoforensics-ai/issues
-- **Discord**: https://discord.com/invite/kaggle
 
 ---
 
